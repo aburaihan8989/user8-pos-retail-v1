@@ -90,9 +90,9 @@
                                 <label class="form-label">Category</label>
                                 <div class="selectgroup w-100">
                                     <label class="selectgroup-item">
-                                        <input type="radio" name="category" value="sayuran" class="selectgroup-input"
+                                        <input type="radio" name="category" value="kelontong" class="selectgroup-input"
                                             checked="">
-                                        <span class="selectgroup-button">Sayuran</span>
+                                        <span class="selectgroup-button">Kelontong</span>
                                     </label>
                                     <label class="selectgroup-item">
                                         <input type="radio" name="category" value="sembako" class="selectgroup-input">

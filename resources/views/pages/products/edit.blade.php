@@ -91,9 +91,9 @@
                                 <label class="form-label">Category</label>
                                 <div class="selectgroup w-100">
                                     <label class="selectgroup-item">
-                                        <input type="radio" name="category" value="sayuran" class="selectgroup-input"
-                                            @if ($product->category == 'sayuran') checked @endif>
-                                        <span class="selectgroup-button">Sayuran</span>
+                                        <input type="radio" name="category" value="kelontong" class="selectgroup-input"
+                                            @if ($product->category == 'kelontong') checked @endif>
+                                        <span class="selectgroup-button">Kelontong</span>
                                     </label>
                                     <label class="selectgroup-item">
                                         <input type="radio" name="category" value="sembako" class="selectgroup-input"
