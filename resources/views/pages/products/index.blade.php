@@ -13,7 +13,7 @@
             <div class="section-header">
                 <h1>Products</h1>
                 <div class="section-header-button">
-                    @if ( auth()->user()->roles == "admin" )
+                    @if ( auth()->user()->roles == "admin" OR auth()->user()->roles == "staff" )
                         <a href="{{ route('product.create') }}" class="btn btn-primary">Add New</a>
                     @else
                         <a href="#" class="btn btn-secondary">Add New</a>
@@ -114,7 +114,7 @@
                                                 </td>
                                                 <td>
                                                     <div class="d-flex">
-                                                        @if ( auth()->user()->roles == "admin" )
+                                                        @if ( auth()->user()->roles == "admin" OR auth()->user()->roles == "staff" )
                                                             <a href='{{ route('product.edit', $product->id) }}'
                                                                 class="btn btn-sm btn-info btn-icon">
                                                                 <i class="fas fa-edit"></i>
